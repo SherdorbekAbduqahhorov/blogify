@@ -3,12 +3,12 @@ import React from 'react'
 function WhyBlogify() {
   return (
     <div className='whydiv1 newcontainer'>
-        <div className='divh1p'> 
-            <h2 className='text-[36px] font-bold leading-[44px] mb-[10px] mt-[128px]'>Why Choose Blogify?</h2>
+        <div className='divh11p'> 
+            <h2 className='h1media text-[36px] font-bold leading-[44px] mb-[10px] mt-[128px]'>Why Choose Blogify?</h2>
             <p className='text-[18px] text-[#6B7280] mb-[64px]'>Built with modern technologies and best practices to provide the best blogging
 experience.</p>
         </div>
-        <div className='flex gap-[32px] flex-wrap justify-center mb-[128px]'>
+        <div className='divmadeaWhychu flex gap-[32px] flex-wrap justify-center mb-[128px]'>
             <div className='divqchn'>
                 <img className='w-[48px] h-[48px]' src="./imgss/flesh.svg" alt="" />
                 <h3 className='text-[20px] font-[600]'>Fast</h3>

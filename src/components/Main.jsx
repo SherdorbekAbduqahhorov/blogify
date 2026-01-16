@@ -10,7 +10,7 @@ function Main() {
                 <p className='text-[20px] text-[#6B7280] w-full max-w-[480px] mb-[32px] mt-[24px]'>Discover stories written by amazing people. Share
 your knowledge and inspire others with your unique
 perspective.</p>
-                <div className='flex gap-[26px]'>
+                <div className='flex gap-[20px]'>
                     <button className='butExplore'>Explore Posts ➜</button>
                     <button className='butGet'>Get Started</button>
                 </div>
