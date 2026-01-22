@@ -35,7 +35,7 @@ getPosts()
   },[])
   return (
     <div>
-      <Navbar inputValue={inputValue} setInputValue={setInputValue}/><br /><br />
+      <Navbar inputValue={inputValue} setInputValue={setInputValue}/><br />
       <div>
         <PostHero/>
         <section className='mt-[32px]'>

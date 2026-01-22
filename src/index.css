@@ -362,7 +362,15 @@ body.dark .navbar {
   color: white;
   border-radius: 12px;
   margin-bottom: 24px;
+  transition: all 0.3s;
 }
+.buttonlogin:hover{
+  transform: scale(1.05);
+}
+.buttonlogin:active{
+  transform: scale(1.07);
+}
+
 .imglogin{
   width: 100%;
   max-width: 576px;
