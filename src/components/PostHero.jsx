@@ -5,7 +5,7 @@ function PostHero(inputValue,setInputValue) {
   console.log(inputValue);
   
   return (
-    <section className='srctionExplore'>
+    <section className='srctionExplore mt-[30px]'>
           <div className='newcontainer srctionExplore'>
           <h1 className='mt-[96px] text-[60px] font-bold'>Explore Our Posts</h1>
           <p className='text-[#6B7280] text-[20px]'>Discover amazing content from talented writers across various topics </p>

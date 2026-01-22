@@ -17,7 +17,7 @@ written by talented creators from around the world.</p>
                 <h3 className='text-[24px] font-[600]'>Quick Links</h3>
                 <Link className='alarhah text-[#6B7280]' to="/">Home</Link><br />
                 <Link className='alarhah text-[#6B7280]' to="/PostsPage">Posts</Link><br />
-                <Link className='alarhah text-[#6B7280]' to="/LoginPage">Login</Link><br />
+                <Link className='alarhah text-[#6B7280]' to={'/login'}>Login</Link><br />
             </div>
             <div className='divavto'>
                 <h3 className='text-[24px] font-[600]'>Connect</h3>

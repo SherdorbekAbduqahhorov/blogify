@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Main() {
   return (
@@ -11,7 +12,7 @@ function Main() {
 your knowledge and inspire others with your unique
 perspective.</p>
                 <div className='flex gap-[20px]'>
-                    <button className='butExplore'>Explore Posts ➜</button>
+                    <Link to={'/PostsPage'}><button className='butExplore'>Explore Posts ➜</button></Link>
                     <button className='butGet'>Get Started</button>
                 </div>
             </div>
