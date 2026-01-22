@@ -15,7 +15,8 @@ import { HiOutlineXMark } from "react-icons/hi2";
                 <div className='divblogify'>
                     <Link className='home' to="/">Home</Link>
                     <Link className='poste' to="/PostsPage">Posts</Link>
-                    <Link to="/LoginPage"><button className='buttonnav'>Login</button></Link>
+                    <Link to={'/login'}><button className='buttonnav'>Login</button></Link>
+                    
                 </div>
                 <div onClick={()=>{setOpen(!open)}} className='md:hidden'>
                     {open ? <HiOutlineXMark className='w-[30px] h-[30px] hover:[transform:scale(1.3)]'/>:<FaBars className="w-[30px] h-[30px] text-[#8524E5] cursor-pointer hover:[transform:scale(1.2)]" /> }
@@ -24,9 +25,9 @@ import { HiOutlineXMark } from "react-icons/hi2";
             {open && <div className='divclosnav newcontainer'>
                 <Link className='home ' to="/">Home</Link>
                 <Link className='poste' to="/PostsPage">Posts</Link>
-               <Link to="/LoginPage"> <button className='but1'>Login</button></Link>
+             <Link to={'/login'}><button className='but1'>Login</button></Link>
             </div>}
-        </nav>
+        </nav><br /><br />
     </header>
   )
 }

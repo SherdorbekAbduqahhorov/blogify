@@ -33,7 +33,7 @@ function DetailPage() {
     },[id])
   return (
     <div>
-        <Navbar/><br />
+        <Navbar/><br /><br /><br /><br />
           <Link
     to={'/Postspage'}
     className='newcontainer flex items-center  gap-[5px] py-[12px] px-[24px]'

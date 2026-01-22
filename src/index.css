@@ -1,9 +1,6 @@
 @import "tailwindcss";
 
 
-body{
-  padding-top: 72px;
-}
 
 .newcontainer{
   width: 100%;
@@ -339,23 +336,58 @@ body.dark .navbar {
   align-items:center ;
   gap: 5px;
 }
+.divcsntr{
+  height: 100vh;
+}
+.divBorder{
+
+  border: 1px solid #E5E7EB;
+  padding: 32px 24px;
+  border-radius: 12px;
+}
+.imputlogin{
+  width: 100%;
+  max-width: 382px;
+  border: 1px solid #E5E7EB;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  padding: 10px;
+  border-radius: 12px;
+}
+.buttonlogin{
+  width: 100%;
+  max-width: 382px;
+  height: 48px;
+  background-color: #4346EF;
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+.imglogin{
+  width: 100%;
+  max-width: 576px;
+}
+
+.ploginsignin{
+
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width:400px){
+  .ploginsignin{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width:1150px){
+  .divcsntr{
+    flex-direction: column;
+  }
+}
 
 
 
