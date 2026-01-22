@@ -9,7 +9,9 @@ import { v4 as uuidv4 } from 'uuid';
 
 function PostsPage() {
   const [posts,setPosts]=useState([])
-
+  let [inputValue, setInputValue]=useState("")
+  console.log(inputValue);
+  
   useEffect(()=>{
 
     async function getPosts() {
@@ -33,7 +35,7 @@ getPosts()
   },[])
   return (
     <div>
-      <Navbar/>
+      <Navbar inputValue={inputValue} setInputValue={setInputValue}/>
       <div>
         <PostHero/>
         <section className='mt-[32px]'>

@@ -334,6 +334,22 @@ body.dark .navbar {
   transform: scale(1.03);
 }
 
+.pBack{
+  display: flex;
+  align-items:center ;
+  gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -442,6 +458,11 @@ body.dark .navbar {
   }
  
 }
+@media (max-width:725px){
+  .hzzzz{
+    font-size: 30px;
+  }
+} 
 
 
 

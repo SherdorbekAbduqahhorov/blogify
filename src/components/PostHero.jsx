@@ -1,10 +1,9 @@
 import React,{useState} from 'react'
 import { IoMdSearch } from "react-icons/io";
 
-function PostHero() {
-    let [input, setInput]=useState([])
-    console.log(input);
-    
+function PostHero(inputValue,setInputValue) {
+  console.log(inputValue);
+  
   return (
     <section className='srctionExplore'>
           <div className='newcontainer srctionExplore'>
@@ -13,7 +12,7 @@ function PostHero() {
           <div className='inputDiv'>
             <IoMdSearch className='h-[30px] w-[30px] text-[#838b9c]'/>
             <input
-            onInput={(e)=>setInput(e.target.value)}
+            onInput={(e)=> setInputValue(e.target.value)}
             className='text-[#626770] w-full' type="text "placeholder='Search posts' /></div>
           </div>
     </section>
