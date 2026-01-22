@@ -2,10 +2,11 @@ import React from 'react'
 import { FiCalendar } from "react-icons/fi";
 
 function PostesCard({post}) {
-  let {updated_at,id, title,content,image}=post
+  let {updated_at,id, title,content,image,category}=post
   return (
     <div className='divLatesbekent'>
       <img src={image} alt="" />
+      <p className='categort'>{category.name}</p>
       <div className='divpedd'>
       <p className='plates1 flex '><FiCalendar/>{updated_at.slice(0, 10)}</p>
       <h1 className='text-[20px] font-bold mb-[4px]'>{title}</h1>

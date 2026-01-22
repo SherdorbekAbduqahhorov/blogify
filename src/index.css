@@ -1,10 +1,9 @@
 @import "tailwindcss";
 
 
-
-
-
-
+body{
+  padding-top: 72px;
+}
 
 .newcontainer{
   width: 100%;
@@ -288,18 +287,17 @@ body.dark .navbar {
   transform: scale(1.2);
 }
 .divLatesbekent {
+  position: relative;
   width: 100%;
-  max-width: 384px;
+  max-width: 383px;
   transition: all 0.3s ease;
   border: 2px solid rgb(228, 227, 227);
    border-top: 2px solid white;
    border-radius: 14px;
-   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .divLatesbekent:hover {
   transform: translateY(-5px);
   box-shadow: 
-    0 10px 25px rgba(0, 0, 0, 0.15),
     0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -316,10 +314,24 @@ body.dark .navbar {
 }
  .plates1{
   display: flex;
-  gap: 8px;
+  gap: 8px; 
   align-items: center;
   margin-bottom: 12px;
   color: #6B7280;
+}
+.categort{
+  position: absolute;
+  top: 19px;
+  left: 16px;
+  padding: 2px 10px;
+  background-color: #4346EF;
+  color: white;
+  border-radius: 50px;
+}
+.categort:hover{
+  background: linear-gradient(to right,#4346EF,#8524E5);
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 
@@ -345,7 +357,7 @@ body.dark .navbar {
 
 @media (max-width:800px) {
   .divh1p{
-     padding-top: 120px;
+     padding-top: 80px;
      padding-bottom: 70px;
   }
   .h1media{
@@ -385,29 +397,6 @@ body.dark .navbar {
     margin-bottom: 48px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width:1070px) {
   .imgbig{

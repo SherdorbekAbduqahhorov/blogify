@@ -1,0 +1,48 @@
+
+/* postsPages=============================== */
+.srctionExplore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(to right,#F1F1FE,#F7F1FD );
+}
+.inputDiv{
+    width: 100%;
+    max-width:576px;
+    height: 48px;
+    border: 1px solid #E5E7EB;
+    background-color: white;
+    margin-bottom: 95px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 15px;
+}
+input{
+outline: none;
+  border: none;
+}
+.srctionExplore p{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top:10px;
+}
+
+
+@media (max-width:670px) {
+    .srctionExplore h1{
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.2;
+        margin-top: 50px;
+    }
+    .srctionExplore p{
+        font-size: 18px;
+    }
+    .inputDiv{
+        margin-bottom: 60px;
+    }
+}
