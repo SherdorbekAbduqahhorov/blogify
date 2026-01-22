@@ -47,7 +47,7 @@ function LoginPage() {
             <form onSubmit={hendleSubmit} className='flex flex-col gap-5px p-[20px]'>
               <img className="w-[100px] h-[28px] mb-[32px]"  src="./imgss/blogify.svg" alt="" />
               <Link
-                  to={'/'}
+                  to={'/PostsPage'}
                   className="flex items-center py-[10px] mb-[32px]"
                 >
                   <MdKeyboardBackspace /> Back to Posts
