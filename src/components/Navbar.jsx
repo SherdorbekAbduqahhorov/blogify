@@ -27,7 +27,7 @@ import { HiOutlineXMark } from "react-icons/hi2";
                 <Link className='poste' to="/PostsPage">Posts</Link>
              <Link to={'/login'}><button className='but1'>Login</button></Link>
             </div>}
-        </nav>
+        </nav><br /><br />
     </header>
   )
 }
