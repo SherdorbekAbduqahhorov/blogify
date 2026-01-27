@@ -370,6 +370,43 @@ body.dark .navbar {
 .buttonlogin:active{
   transform: scale(1.07);
 }
+.buttonlogin {
+  padding: 10px 24px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttonlogin:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* 🔄 Loader doira */
+.loader {
+  width: 18px;
+  height: 18px;
+  border: 3px solid white;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+/* 🔁 Aylanish animatsiyasi */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .imglogin{
   width: 100%;
