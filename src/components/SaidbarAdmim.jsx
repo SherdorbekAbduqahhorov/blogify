@@ -9,16 +9,16 @@ function SaidbarAdmim() {
   return (
     <div className='h-screen flex flex-col justify-between max-w-[25%] min-w-[225px] border-r-2 border-gray-200 '>
         <div className='p-[24px] border-b border-[#c2cad8]'>
-            <Link to="/login">
-            <img src="./imgss/blogify.svg" alt="" />
+            <Link to="/">
+            <img src="../imgss/blogify.svg" alt="" />
             </Link>
             <p className='text-[14px] text-[#6B7280] mt-[4px] mb-[4px]'>Admin Panel</p>
         </div>
         
 <div className='px-[16px] mt-[16px]'>
   <NavLink
-  to="/admin"
-  end  // 🔹 shu muhim!
+  to="/admin/dashboard"
+  end 
   className={({ isActive }) =>
     `flex items-center gap-[12px] py-[12px] px-[16px] w-full rounded-[12px] ${
       isActive ? "bg-[#4346EF1A] text-[#4346EF]" : "hover:border hover:text-[#4346EF]"

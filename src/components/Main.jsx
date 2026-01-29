@@ -13,7 +13,8 @@ your knowledge and inspire others with your unique
 perspective.</p>
                 <div className='flex gap-[20px]'>
                     <Link to={'/PostsPage'}><button className='butExplore'>Explore Posts ➜</button></Link>
-                    <button className='butGet'>Get Started</button>
+                    <Link to={'/login'}><button className='butGet'>Get Started</button></Link>
+                    
                 </div>
             </div>
             <img className='imgbig mt-[60px]' src="./imgss/img1.png" alt="" />

@@ -32,11 +32,10 @@ function LoginPage() {
       console.log(data);
 
       if (res.ok && data.success !== false) {
-        let data= await res.json()
+       
         localStorage.setItem("token", JSON.stringify(data))
-        navigate("/admin/Dahbordpage")
+        navigate("/admin/dashboard")
         toast.success("Tizimga muvaffaqiyatli kirdingiz ✅");
-        // setTimeout(() => navigate("/admin"), 1000);
       } else {
         toast.error(data.message || "Admin paroli yoki email xato ❌");
       } 
