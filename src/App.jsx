@@ -8,7 +8,7 @@
   import Adminleyout from './components/Adminleyout';
   import CreatPost from './pages/admin/CreatPost';
 import ProtecrotRout from './components/ProtecrotRout';
-import Dahbordpage from './pages/admin/Dahbordpage';
+import Dashboard from './pages/admin/Dahbordpage';
 
   function App() {
     const routers = createBrowserRouter([
@@ -31,7 +31,7 @@ import Dahbordpage from './pages/admin/Dahbordpage';
         children: [
           {
             path: 'dashboard',
-              element:<Dahbordpage/>
+            element:<Dashboard/>
 
           }, 
           { 
