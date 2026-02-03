@@ -44,8 +44,8 @@ function SaidbarAdmim() {
     <p>Create Post</p>
   </NavLink>
 </div>
-        <div className='p-[16px] border-t border-gray-300'>
-           <Link to={"/login"}><button className='flex items-center gap-[12px] py-[24px] px-[13px] cursor-pointer'><MdOutlineLogout className='w-[20px] h-[20px]'/> Logout</button></Link> 
+        <div className='p-[16px] border-t border-gray-300 flex'>
+           <Link to={"/login"}><button className='flex items-center gap-[12px] py-[10px] pl-[20px] pr-[90px] rounded-[12px] cursor-pointer hover:bg-[#4346EF1A] hover:text-[#4346EF]'><MdOutlineLogout className='w-[20px] h-[20px]'/> Logout</button></Link> 
         </div>
     </div>
   )

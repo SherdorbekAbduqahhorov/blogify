@@ -10,7 +10,7 @@ function DashboardCard({ post = [], info = [] }) {
       {/* Posts */}
       <div className="w-full transform rounded-[12px] border-[1px] border-[#E5E7EB] p-[25px] transition-transform duration-300 hover:scale-105 hover:shadow-[0px_11px_13px_-4px_rgba(0,_0,_0,_0.1)]">
         <div className="mb-[16px] flex items-center justify-between">
-          {/* <img src={postIcon} alt="posts" /> */}
+          <img src="/public/imgss/asosiylist.svg" alt="posts" />
           <span className="text-[14px] font-medium text-[#21C45D]">12%</span>
         </div>
         <div>
@@ -24,7 +24,7 @@ function DashboardCard({ post = [], info = [] }) {
       {/* Categories */}
       <div className="w-full transform rounded-[12px] border-[1px] border-[#E5E7EB] p-[25px] transition-transform duration-300 hover:scale-105 hover:shadow-[0px_11px_13px_-4px_rgba(0,_0,_0,_0.1)]">
         <div className="mb-[16px] flex items-center justify-between">
-          {/* <img src={categoryIcon} alt="categories" /> */}
+          <img src="/public/imgss/2.png" alt="posts" />
           <span className="text-[14px] font-medium text-[#21C45D]">2%</span>
         </div>
         <div>
@@ -38,7 +38,7 @@ function DashboardCard({ post = [], info = [] }) {
       {/* Views */}
       <div className="w-full transform rounded-[12px] border-[1px] border-[#E5E7EB] p-[25px] transition-transform duration-300 hover:scale-105 hover:shadow-[0px_11px_13px_-4px_rgba(0,_0,_0,_0.1)]">
         <div className="mb-[16px] flex items-center justify-between">
-          {/* <img src={viewIcon} alt="views" /> */}
+          <img src="/public/imgss/list.png" alt="views" />
           <span className="text-[14px] font-medium text-[#21C45D]">23%</span>
         </div>
         <div>
@@ -52,7 +52,7 @@ function DashboardCard({ post = [], info = [] }) {
       {/* Active Users */}
       <div className="w-full transform rounded-[12px] border-[1px] border-[#E5E7EB] p-[25px] transition-transform duration-300 hover:scale-105 hover:shadow-[0px_11px_13px_-4px_rgba(0,_0,_0,_0.1)]">
         <div className="mb-[16px] flex items-center justify-between">
-          {/* <img src={activeIcon} alt="active users" /> */}
+          <img src="/public/imgss/user.svg" alt="active users" />
           <span className="text-[14px] font-medium text-[#21C45D]">+8%</span>
         </div>
         <div>

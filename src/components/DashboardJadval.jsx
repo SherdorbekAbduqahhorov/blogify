@@ -49,9 +49,10 @@ function DashboardJadval({ post }) {
                 {item?.created_at?.slice(0, 10)}
               </td>
               <td className="p-[16px] text-left">Active</td>
-              <td className="flex justify-end gap-2 p-[16px]">
-                <button className="text-red-500">Delete</button>
-                <button className="text-blue-500">Edit</button>
+              <td className="flex justify-end gap-10 p-[16px]">
+                <button className="text-blue-500 hover:scale-[1.3]">Edit</button>
+                <button className="text-red-500 hover:scale-[1.3]">Delete</button>
+                
               </td>
             </tr>
           ))}
