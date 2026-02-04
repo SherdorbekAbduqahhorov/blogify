@@ -18,7 +18,7 @@ let token = JSON.parse(localStorage.getItem("token"))
     let res=await fetch("https://alijonov0901.pythonanywhere.com/api/v1/articles/",{
       method:'POST',
       headers: {
-        Authorization:`Bearer ${token.access}`
+        Authorization:`Bearer ${token.access}` 
       },
       body:formData
     })
@@ -57,7 +57,6 @@ let token = JSON.parse(localStorage.getItem("token"))
           <label>
             <p className='mb-[12px]'>Category</p>
             <select ref={categoryRef} className="select">
-  <option value="" disabled selected>Select category</option>
   <option value="1">Technology</option>
   <option value="2">Productivity</option>
   <option value="3">Design</option>

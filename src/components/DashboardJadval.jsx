@@ -1,6 +1,27 @@
 import React from "react";
 
 function DashboardJadval({ post }) {
+  let token=JSON.parse(localStorage.getItem('token'))
+ async function deletePost(id){
+    console.log(id);
+    try {
+      let res=await fetch(`https://alijonov0901.pythonanywhere.com/api/v1/articles/${id}`,{
+        method:'DELETE',
+        headers:{
+           Authorization:`Bearer ${token.access}`
+        }
+      })
+      if (!res.ok){
+        throw new Error("O'chirishda muamo")
+      }
+      let data=await res.json()
+      console.log(data);
+      
+    } catch (error) {
+      console.log(error);
+      
+    }
+  }
   return (
     <div className="mt-[32px] rounded-[12px] border-[1px] border-[#E5E7EB] p-[24px]">
       <h2 className="mb-[4px] text-[20px] font-semibold text-[#0F1729]">
@@ -51,7 +72,7 @@ function DashboardJadval({ post }) {
               <td className="p-[16px] text-left">Active</td>
               <td className="flex justify-end gap-10 p-[16px]">
                 <button className="text-blue-500 hover:scale-[1.3]">Edit</button>
-                <button className="text-red-500 hover:scale-[1.3]">Delete</button>
+                <button onClick={()=>{deletePost(item.id)}} className="text-red-500 hover:scale-[1.3]">Delete</button>
                 
               </td>
             </tr>

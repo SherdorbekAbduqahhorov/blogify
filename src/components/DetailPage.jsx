@@ -59,9 +59,7 @@ function DetailPage() {
       </p>
     </div>
     <img src={detail?.image} alt={detail?.title} className='mt-[16px] mb-[16PX] rounded-b-[12PX]' />
-    <p>{detail?.content}I am Sherdorbek Abduqahhorov, an 18-year-old Frontend Developer with a strong passion for creating modern, clean, and powerful web applications. I specialize in HTML, CSS, Tailwind CSS, JavaScript, and React, and I confidently work with APIs and dynamic data.
-I enjoy turning complex ideas into simple, user-friendly, and visually impressive digital experiences. I have a clear and powerful mindset, strong problem-solving skills, and a deep love for building high-quality websites and web applications.
-For me, frontend development is not just writing code — it is about creating experiences that people enjoy using. I constantly improve my skills, follow modern technologies, and aim to deliver professional, scalable, and performant solutions.
+    <p>{detail?.content}
     </p>
   </div>    
 </section>
