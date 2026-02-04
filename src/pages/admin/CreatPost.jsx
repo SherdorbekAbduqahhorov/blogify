@@ -68,7 +68,7 @@ let token = JSON.parse(localStorage.getItem("token"))
         <div className='w-[283px] h-[304px] border-2 border-[#E5E7EB] rounded-[12px] p-[24px]'>
           <h1 className='text-[30px] font-bold mb-[16px]'>Featured Image</h1>
             <label className="flex flex-col items-center justify-center w-[232px] h-[192px]  border-2 border-dashed border-gray-300 rounded-lg p-4 cursor-pointer bg-white text-gray-700 text-center">
-              <img className='w-[40px] h-[40px]' src="/public/imgss/send.svg" alt="" />
+              <img className='w-[40px] h-[40px]' src="/imgss/send.svg" alt="" />
              <span>Click to upload or drag and drop</span>
              <p>PNG, JPG or WEBP</p>
              <input ref={imgRef} type="file" accept="image/*" className="hidden" />
